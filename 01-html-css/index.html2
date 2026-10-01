@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>グウチョキパン店</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <h1>グウチョキパン店</h1>
+
+        <nav>
+            <a href="#about">お店について</a>
+            <a href="#menu">メニュー</a>
+            <a href="#location">場所</a>
+            <a href="#contact">お問い合わせ</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p>～毎日焼きたてのパンをお届け～</p>
+
+                <a href="#menu">メニューを見る</a>
+
+            </div>
+
+            <img src="images/panya.jpg" alt="グウチョキパン店の店内">
+
+        </section>
+
+        <section id="about">
+
+            <div class="about-content">
+
+                <h2>お店について</h2>
+            
+                <p>
+                    グウチョキパン店は、地元の新鮮な食材を使った手作りパンを提供しています。
+                    毎日焼きたてのパンをお楽しみいただけます。
+                </p>
+            
+                <p>
+                    お持ち帰りも可能ですので、お気軽にご利用ください！
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="menu">
+
+            <h2>メニュー</h2>
+
+            <img src="images/panya2.jpg" alt="グウチョキパン店のパンの写真">
+
+            <ul class="menu-list">
+
+                <li class="menu-item">クロワッサン</li>
+
+                <li class="menu-item">バゲット</li>
+
+                <li class="menu-item">食パン</li>
+
+                <li class="menu-item">デニッシュ</li>
+
+                <li class="menu-item">サンドイッチ</li>
+
+            </ul>
+
+        </section>
+
+        <section id="location">
+
+            <h2>場所</h2>
+
+            <p>海の見える街</p>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>お問い合わせ</h2>
+
+            <form>
+
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="mail">
+                </div>
+
+                <div>
+                    <label for="message">お問い合わせ内容</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <div>
+                    <label for="desired-data">希望日時</label>
+                    <input type="desired-date" id="desired-date">
+
+                </div>
+
+                <button type="submit">送信</button>
+
+            </form>
+
+        </section>
+
+        <footer>
+
+            <p>© 2026 グウチョキパン店</p>
+
+        </footer>
+
+</body>
+
+</html>
+
