@@ -1,0 +1,31 @@
+body {
+    background-color: #1f1a17;
+    color: #f5efe6;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+a {
+    color: #f5efe6;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-color: #352a24;
+    padding: 40px;
+}
+
+
+
