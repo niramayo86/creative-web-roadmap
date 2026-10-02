@@ -25,7 +25,32 @@ img {
 .hero {
     background-color: #352a24;
     padding: 40px;
+    border: 2px solid #f5efe6;
+    margin-bottom: 60px;
 }
 
+#about {
+    padding: 60px 40px;
+}
 
+#location {
+    padding: 60px 40px;
+}
 
+#menu {
+    padding: 60px 40px;
+}
+
+#contact {
+    padding: 60px 40px;
+}
+
+.menu-item {
+    border-bottom: 1px solid #f5efe6;
+    padding: 12px 0;
+}
+
+.menu-list {
+    padding: 0;
+    list-style: none;
+}
