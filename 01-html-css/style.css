@@ -51,6 +51,23 @@ img {
 }
 
 .menu-list {
+    max-width: 700px;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
+}
+
+.about-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.menu-image {
+    width: 500px;
+    max-width: 100%;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
 }
