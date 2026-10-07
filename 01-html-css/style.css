@@ -101,3 +101,20 @@ nav {
     gap: 24px;
     flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+        flex: none;
+    }
+    
+    .hero-image {
+        width: 100%;
+        flex: none;
+    }
+}
+
