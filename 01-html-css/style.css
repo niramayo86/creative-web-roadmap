@@ -105,6 +105,7 @@ nav {
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
+        padding: 24px 16px;
     }
 
     .hero-content {
@@ -132,6 +133,10 @@ nav {
         width: 100%;
         justify-content: center;
         gap: 16px;
+    }
+
+    .menu-list {
+        grid-template-columns: 1fr;
     }
 }
 
