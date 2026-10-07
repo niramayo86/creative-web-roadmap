@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>グウチョキパン店</title>
+
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
@@ -34,7 +36,7 @@
 
             </div>
 
-            <img src="images/panya.jpg" alt="グウチョキパン店の店内">
+            <img class="hero-image" src="images/panya.jpg" alt="グウチョキパン店の店内">
 
         </section>
 
@@ -61,7 +63,7 @@
 
             <h2>メニュー</h2>
 
-            <img src="images/panya2.jpg" alt="グウチョキパン店のパンの写真">
+            <img class="menu-image" src="images/panya2.jpg" alt="グウチョキパン店のパンの写真">
 
             <ul class="menu-list">
 
@@ -100,7 +102,7 @@
 
                 <div>
                     <label for="email">メールアドレス</label>
-                    <input type="email" id="mail">
+                    <input type="email" id="email">
                 </div>
 
                 <div>
@@ -109,9 +111,8 @@
                 </div>
 
                 <div>
-                    <label for="desired-data">希望日時</label>
-                    <input type="desired-date" id="desired-date">
-
+                    <label for="desired-date">希望日時</label>
+                    <input type="datetime-local" id="desired-date">
                 </div>
 
                 <button type="submit">送信</button>
@@ -119,6 +120,8 @@
             </form>
 
         </section>
+
+    </main>
 
         <footer>
 
