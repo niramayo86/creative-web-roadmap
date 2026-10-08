@@ -1,6 +1,6 @@
 body {
-    background-color: #2e1b0f;
-    color: #f1e6dc;
+    background-color: #fab58a;
+    color: #3a2424;
     font-family: Arial, sans-serif;
 }
 
@@ -12,9 +12,8 @@ h2 {
 }
 
 a {
-    color: #f1e6dc;
+    color: #3a2424;
     text-decoration: none;
-    transition: color 0.3s;
     }
 
 img {
@@ -39,7 +38,7 @@ img {
 }
 
 .menu-item {
-    border-bottom: 1px solid #f1e6dc;
+    border-bottom: 1px solid #3a2424;
     padding: 12px 0;
 }
 
@@ -71,11 +70,11 @@ img {
 }
 
 .hero {
-    background-color:#300303;
+    background-color:#3a2424;
     padding:40px;
-    border: 2px solid #f1e6dc;
+    border: 2px solid #f5efe6;
     margin-bottom: 60px;
-    color: #f1e6dc;
+    color: #ffffff;
 
     display: flex;
     gap: 40px;
@@ -104,58 +103,6 @@ nav {
 }
 
 .hero a {
-    color: #f1e6dc;
+    color: #ffffff;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        padding: 24px 16px;
-    }
-
-    .hero-content {
-        width: 100%;
-        flex: none;
-    }
-
-    .hero-image {
-        width: 100%;
-        flex: none;
-    }
-
-    header {
-        flex-direction: column;
-        gap: 16px;
-        padding: 20px 16px;
-        text-align: center;
-    }
-
-    header h1 {
-        font-size: 32px;
-    }
-
-    nav {
-        width: 100%;
-        justify-content: center;
-        gap: 16px;
-    }
-
-    .menu-list {
-        grid-template-columns: 1fr;
-    }
-
-    #about,
-    #menu,
-    #location,
-    #contact {
-        padding: 40px 16px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-}
-
-a:hover {
-    color: #f0cedc;
-}
