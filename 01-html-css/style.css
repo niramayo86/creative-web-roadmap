@@ -15,6 +15,7 @@ h2 {
 a {
     color: #f5efe6;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 img {
@@ -150,4 +151,9 @@ nav {
         font-size: 24px;
     }
 }
+
+a:hover {
+    color: #d6a86c;
+}
+
 
