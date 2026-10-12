@@ -89,3 +89,17 @@ nav {
 footer {
     padding: 24px 40px;
 }
+
+@media (max-width: 768px) {
+    .menu-list {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    header {
+        flex-direction:column;
+    }
+
+    .hero-intro {
+        flex-direction:column;
+    }
+}
