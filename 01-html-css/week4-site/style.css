@@ -102,4 +102,12 @@ footer {
     .hero-intro {
         flex-direction:column;
     }
+
+    #menu {
+        padding: 24px 16px;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
 }
