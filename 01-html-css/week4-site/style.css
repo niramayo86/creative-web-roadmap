@@ -97,6 +97,7 @@ footer {
 
     header {
         flex-direction:column;
+        gap: 4px;
     }
 
     .hero-intro {
@@ -108,6 +109,6 @@ footer {
     }
 
     .hero-content h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
