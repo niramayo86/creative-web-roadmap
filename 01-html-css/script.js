@@ -1,8 +1,9 @@
 const cafeName = "喫茶ハトの巣";
 
-const price = 500;
-const quantity = 3;
+let quantity = 2;
 
-const total = price * quantity;
+console.log(quantity);
 
-console.log("合計" + total + "円");
+quantity = 3;
+
+console.log(quantity);
