@@ -1,5 +1,6 @@
-const heading = document.querySelector("header h1");
+const product = "カフェラテ";
+const price = 500;
 
-heading.textContent = "ようこそ、喫茶ハトの巣へ";
+const menuMessage = document.querySelector("#menu-message");
 
-console.log(heading);
+menuMessage.textContent = "本日のおすすめは" + product + "、" + price + "円です";
