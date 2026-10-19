@@ -5,4 +5,4 @@ const quantity = 3;
 
 const total = price * quantity;
 
-console.log(total);
+console.log("合計" + total + "円");
