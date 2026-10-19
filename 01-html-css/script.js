@@ -1,13 +1,5 @@
-const cafeName = "喫茶ハトの巣";
+const heading = document.querySelector("header h1");
 
-const price = 500;
-let quantity = 2;
-let total = price * quantity;
+heading.textContent = "ようこそ、喫茶ハトの巣へ";
 
-console.log(total);
-
-quantity = 3;
-
-total = price * quantity;
-
-console.log(total);
+console.log(heading);
