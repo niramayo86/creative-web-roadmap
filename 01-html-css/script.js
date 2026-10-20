@@ -1,16 +1,7 @@
-const product = "カフェラテ";
-const price = 500;
+const target = document.querySelector("#menu-message");
 
-const menuMessage = document.querySelector("#menu-message");
+target.textContent = "本日のおすすめはカフェラテです";
 
-menuMessage.textContent = "本日のおすすめは" + product + "、" + price + "円です";
+target.classList.add("highlight");
 
-console.log(menuMessage.classList.contains("highlight"))
-
-menuMessage.classList.add("highlight");
-
-console.log(menuMessage.classList.contains("highlight"));
-
-menuMessage.classList.remove("highlight");
-
-console.log(menuMessage.classList.contains("highlight"));
+console.log(target.classList.contains("highlight"));
