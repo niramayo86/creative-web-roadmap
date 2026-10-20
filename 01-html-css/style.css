@@ -155,3 +155,9 @@ nav {
 a:hover {
     color: #d6a86c;
 }
+
+.highlight {
+    background-color: #f5efe6;
+    color: #352a24;
+    padding: 16px;
+}
