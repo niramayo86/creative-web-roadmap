@@ -1,10 +1,16 @@
 const menuMessage = document.querySelector("#menu-message");
 const messageButton = document.querySelector("#message-button");
+const clearButton = document.querySelector("#clear-button");
 
-menuMessage.textContent = "本日のおすすめはカフェラテです";
-
-function toggleHighlight() {
-    menuMessage.classList.toggle("highlight");
+function showMessage() {
+    menuMessage.textContent = "本日のおすすめはカフェラテです";
+    menuMessage.classList.add("highlight");
 }
 
-messageButton.addEventListener("click", toggleHighlight);
+function clearMessage() {
+    menuMessage.textContent = "";
+    menuMessage.classList.remove("highlight");
+}
+
+messageButton.addEventListener("click", showMessage);
+clearButton.addEventListener("click", clearMessage);
