@@ -1,7 +1,8 @@
-const target = document.querySelector("#menu-message");
+const menuMessage = document.querySelector("#menu-message");
 
-target.textContent = "本日のおすすめはカフェラテです";
+function showMessage() {
+    menuMessage.textContent = "本日のおすすめはカフェラテです";
+    menuMessage.classList.add("highlight");
+}
 
-target.classList.add("highlight");
-
-console.log(target.classList.contains("highlight"));
+showMessage();
