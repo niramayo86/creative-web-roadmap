@@ -1,9 +1,10 @@
 const menuMessage = document.querySelector("#menu-message");
 const messageButton = document.querySelector("#message-button");
 
-function showMessage() {
-    menuMessage.textContent = "本日のおすすめはカフェラテです";
-    menuMessage.classList.add("highlight");
+menuMessage.textContent = "本日のおすすめはカフェラテです";
+
+function toggleHighlight() {
+    menuMessage.classList.toggle("highlight");
 }
 
-messageButton.addEventListener("click", showMessage);
+messageButton.addEventListener("click", toggleHighlight);
