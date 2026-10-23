@@ -1,10 +1,19 @@
 const menuMessage = document.querySelector("#menu-message");
+const messageButton = document.querySelector("#message-button");
+const teaButton = document.querySelector("#tea-button");
 
 function showMessage(message) {
-    console.log(message);
     menuMessage.textContent = message;
     menuMessage.classList.add("highlight");
 }
 
-showMessage("本日のおすすめはカフェラテです");
-showMessage("本日のおすすめは紅茶です")
+function showLatte() {
+    showMessage("本日のおすすめはカフェラテです");
+}
+
+function showTea() {
+    showMessage("本日のおすすめは紅茶です");
+}
+
+messageButton.addEventListener("click", showLatte);
+teaButton.addEventListener("click",showTea);
