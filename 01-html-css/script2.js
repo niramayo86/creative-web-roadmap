@@ -1,24 +1,26 @@
-const product = "クロワッサン";
-const price = 280;
-let quantity = 2;
-let total = price * quantity;
-const menumessage = document.querySelector("#menu-message");
+const menuMessage = document.querySelector("#menu-message");
+const messageButton = document.querySelector("#message-button");
+const baguetteButton = document.querySelector("#baguette-button");
+const closebutton = document.querySelector("#close-button");
 
-menumessage.textContent = "本日のおすすめ：" + product + " (" + quantity + "個で" + total + "円)";
+function showMessage(message) {
+    menuMessage.textContent = message;
+    menuMessage.classList.add("highlight");
+}
 
-console.log(menumessage.classList.contains("highlight"));
+function showcroissant() {
+    showMessage("クロワッサンは280円です");
+}
 
-menumessage.classList.add("highlight");
+function showbaguette() {
+    showMessage("バゲットは350円です");
+}
 
-console.log(menumessage.classList.contains("highlight"));
+function showclose() {
+    showMessage("");
+    menuMessage.classList.remove("highlight");
+}
 
-menumessage.classList.remove("highlight");
-
-console.log(menumessage.classList.contains("highlight"));
-
-menumessage.classList.toggle("highlight");
-
-console.log(menumessage.classList.contains("highlight"));
-
-console.log("要素の確認：", menumessage);
-console.log("文字の確認：", menumessage.textContent);
+messageButton.addEventListener("click", showcroissant);
+baguetteButton.addEventListener("click", showbaguette);
+closebutton.addEventListener("click", showclose);
