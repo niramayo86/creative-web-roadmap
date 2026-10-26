@@ -1,11 +1,7 @@
-const menuMessage = document.querySelector("#menu-message");
+let price = 500;
 
-menuMessage.textContent = "本日のおすすめはカフェラテです";
+price = 800;
+console.log(price);
 
-menuMessage.classList.add("highlight");
-
-if (menuMessage.classList.contains("highlight")) {
-    console.log("強調表示中です");
-} else {
-    console.log("通常の状態です");
-}
+console.log(price >= 1000);
+console.log(price);
