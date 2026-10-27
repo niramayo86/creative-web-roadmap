@@ -1,4 +1,5 @@
-const products = ["カフェラテ", "コーヒー", "紅茶"];
+const products = ["カフェラテ", "コーヒー", "紅茶", "ココア"];
 
-console.log(products);
-console.log(products[2]);
+for (const product of products) {
+    console.log(product);
+}
