@@ -1,7 +1,4 @@
-let price = 500;
+const products = ["カフェラテ", "コーヒー", "紅茶"];
 
-price = 800;
-console.log(price);
-
-console.log(price >= 1000);
-console.log(price);
+console.log(products);
+console.log(products[2]);
