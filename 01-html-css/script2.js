@@ -1,26 +1,29 @@
-const menuMessage = document.querySelector("#menu-message");
-const messageButton = document.querySelector("#message-button");
-const baguetteButton = document.querySelector("#baguette-button");
-const closebutton = document.querySelector("#close-button");
+console.log("JavaScriptを読み込みました");
 
-function showMessage(message) {
-    menuMessage.textContent = message;
-    menuMessage.classList.add("highlight");
+const breads = [
+    "クロワッサン : 280円",
+    "バケット : 350円",
+    "食パン : 320円"
+];
+
+const breadList = document.querySelector("#bread-list");
+const breadButton = document.querySelector("#bread-button");
+
+function showBreads() {
+    if (breadList.classList.contains("highlight")) {
+        breadList.textContent = "";
+        breadList.classList.remove("highlight")
+    } else {
+    
+        for (const bread of breads) {
+            const item = document.createElement("li");
+            item.textContent = bread;
+            breadList.append(item);
+        }
+
+    breadList.classList.add("highlight");
+    }
+    
 }
-
-function showcroissant() {
-    showMessage("クロワッサンは280円です");
-}
-
-function showbaguette() {
-    showMessage("バゲットは350円です");
-}
-
-function showclose() {
-    showMessage("");
-    menuMessage.classList.remove("highlight");
-}
-
-messageButton.addEventListener("click", showcroissant);
-baguetteButton.addEventListener("click", showbaguette);
-closebutton.addEventListener("click", showclose);
+   
+breadButton.addEventListener("click", showBreads);
