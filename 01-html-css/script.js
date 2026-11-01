@@ -13,3 +13,12 @@ function showProducts() {
 }
 
 showButton.addEventListener("click", showProducts);
+
+const heroImage = document.querySelector(".hero-image");
+const fadeButton = document.querySelector("#fade-button");
+
+function fadeImage () {
+    heroImage.classList.toggle("faded");
+}
+
+fadeButton.addEventListener("click", fadeImage);

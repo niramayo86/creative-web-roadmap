@@ -88,7 +88,8 @@ img {
    flex: 1;
    min-width: 0; 
    height: auto;
-   opacity: 0.5;
+   opacity: 1;
+   transition: opacity 3s;
 }
 
 header {
@@ -161,4 +162,8 @@ a:hover {
     background-color: #f5efe6;
     color: #352a24;
     padding: 16px;
+}
+
+.faded {
+    opacity: 0.3;
 }
