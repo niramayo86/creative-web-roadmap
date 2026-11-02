@@ -90,6 +90,7 @@ img {
    height: auto;
    opacity: 1;
    transition: opacity 3s;
+   transform: translateY(0px);
 }
 
 header {
