@@ -90,7 +90,7 @@ img {
    height: auto;
    opacity: 1;
    transition: opacity 3s, transform 1s;
-   transition-delay: 1s;
+   transition-delay: 0s;
 }
 
 header {
