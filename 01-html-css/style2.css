@@ -44,6 +44,16 @@ img {
     padding: 12px 0;
 }
 
+.menu-item summary {
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.menu-item details p {
+    margin: 4px 0 8px;
+    line-height: 1.7;
+}
+
 .menu-list {
     max-width: 700px;
     margin: 0 auto;
@@ -193,4 +203,21 @@ a:hover {
     background-color: #f5efe6;
     color: #352a24;
     padding: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .menu-item details[open] > p {
+        animation: bread-detail-in 0.25s ease-out;
+    }
+}
+
+@keyframes bread-detail-in {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
