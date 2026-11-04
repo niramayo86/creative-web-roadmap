@@ -1,0 +1,19 @@
+header {
+    background-color: rgba(157, 224, 226, 0.473);
+    padding: 20px;
+    margin-bottom: 40px;
+    color: rgb(30, 68, 90);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+#about {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#menu {
+    margin-top: 30px;
+}

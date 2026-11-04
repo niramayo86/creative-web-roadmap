@@ -1,0 +1,14 @@
+h1 {
+    color:blue;
+    font-size: 40px;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#about {
+    border: 2px solid black;
+}
