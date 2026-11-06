@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    background-image: url("rennshuu3.jpg");
+    padding-top: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom; 
+    background-color: #8ca396;
+    color: #23433a;
+}
+
+h1 {
+    padding-left: 7px;
+    margin: 0;
+    background-color: #8ca396;
+    font-size: 40px;
+}
+
+header p {
+    padding-left: 7px;
+    padding-bottom: 7px;
+    margin: 0;
+    background-color: #8ca396;
+}
+
+#about {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+#menu {
+    margin: 20px;
+}

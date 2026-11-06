@@ -1,4 +1,9 @@
+body {
+    margin: 0;
+}
+
 h1 {
+    margin: 0;
     color:blue;
     font-size: 40px;
 }
@@ -7,8 +12,28 @@ header {
     background-color: lightblue;
     padding: 20px;
     margin-bottom: 40px;
+    background-image: url("Café D'Agente — Cafeteria e Cafés Especiais em Ponta Grossa.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 #about {
+    margin: 14px;
+    padding: 14px;
     border: 2px solid black;
+    border-radius: 12px;
+}
+
+#menu {
+    margin: 14px;
 }
