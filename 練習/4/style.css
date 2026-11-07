@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #dcebe2;
+    color: #244b3d;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.hours {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.about {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #536e5e;
+    border-radius: 12px;
+    color: #244b3d;
+    box-sizing: border-box;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menulist {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.coffee {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #9dad9e;
+    border-radius: 8px;
+    background-color: #f2f6f2;
+    width: 180px;
+    box-sizing: border-box;
+}

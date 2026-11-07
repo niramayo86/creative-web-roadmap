@@ -1,0 +1,31 @@
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #2563eb;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+
+}
+
+.header-content {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 100px;
+    background-color: #bfdbfe;
+    border: 1px solid #2563eb;
+}
+
+#logo {
+    height: 50px;
+}
+
+#menu {
+    height: 100px;
+}
