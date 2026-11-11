@@ -1,0 +1,122 @@
+header {
+    height: 120px;
+    background-color: #dcebe2;
+    color: #244b3d;
+    
+}
+
+body {
+    margin: 0;
+    
+}
+
+main {
+    width: 760px;
+    display: flex;
+    
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.商品紹介エリア {
+    width: 760px;
+    height: 300px;
+    background-color: 	#dbeafe;
+    position: relative;
+
+
+
+}
+
+.ラベル {
+    width: 100px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+#new {
+    top: 20px;
+    right: 20px;
+    background-color: #ef4444;
+    position: absolute;
+    z-index: 2;
+    
+    
+
+
+}
+
+#限定 {
+    top: 45px;
+    right: 60px;
+    background-color: 	#f59e0b;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.商品の特徴エリア {
+    width: 760px;
+    height: 600px;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+.商品の特徴エリア h2 {
+    height: 60px;
+    color: white;
+    background-color: #244b3d;
+    position: sticky;
+    top: 0px;
+}
+
+.見出しの下の内容 {
+    height: 540px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.下部コンテンツ {
+    width: 760px;
+    height: 700px;
+    background-color: #f2f6f2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.TOPボタン {
+    width: 80px;
+    height: 50px;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
