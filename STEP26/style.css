@@ -110,3 +110,33 @@ h1 {
 
 }
 
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #f3f4f6;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 0;
+    
+}
+
+.btn:hover {
+    background-color: 	#1d4ed8;
+}
+
+.btn:active {
+    background-color: #1e3a8a;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0;
+}
+
