@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML復習</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+
+<body>
+    <header>
+        <h1>カフェ喫茶ハトの巣</h1>
+        <p>HTMLの復習を始めました。</p>
+        <nav>
+            <a href="#hours">営業時間を見る</a>
+            <a href="#today">本日のおすすめを見る</a>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images/cafe2.jpg" alt="カフェの写真" width="300">
+        <div class="recommend" id="today">
+            <h2>本日のおすすめ</h2>
+            <p>こだわりのコーヒーをご用意しています。</p>
+        </div>
+
+        <h3 id="hours">営業時間</h3>
+        <p>午前9時から午後6時まで営業しています。</p>
+        <p>毎週水曜日は定休日です。</p>
+
+        <h2>ドリンクメニュー</h2>
+
+        <ol>
+            <li>エスプレッソ</li>
+            <li>カフェラテ</li>
+            <li>キャラメルラテ</li>
+        </Ol>
+
+        <h2>お問い合わせ</h2>
+
+        <form>
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+
+           <p>来店予約日時</p>
+           <input type="datetime-local">
+           <p>お問い合わせ内容</p>
+
+           <textarea rows="1" cols="20"></textarea>
+           <button type="submit">送信する</button>
+        </form>
+    </main>
+        
+    <div class="flex-demo">
+        <div class="flex-item">りんご</div>
+        <div class="flex-item">みかん</div>
+        <div class="flex-item">ぶどう</div>
+    </div>       
+    
+</body>
+
+</html>
