@@ -22,3 +22,25 @@ function fadeImage () {
 }
 
 fadeButton.addEventListener("click", fadeImage);
+
+const messageButton = document.querySelector("#message-button");
+const menuMessage = document.querySelector("#menu-message");
+
+messageButton.addEventListener("click", function() {
+    menuMessage.textContent = "カフェラテ：150 bells";
+});
+
+const teaButton = document.querySelector("#tea-button");
+
+teaButton.addEventListener("click", function() {
+    menuMessage.textContent = "紅茶：150 bells";
+});
+
+document.querySelector("form").addEventListener("submit", function() {
+    alert("送信イベントが発生した！");
+});
+
+document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("入力チェック成功！実際の送信はしていません。");
+});
