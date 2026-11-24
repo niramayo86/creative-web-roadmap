@@ -14,16 +14,25 @@
             height: 100px;
             background-color: #60a5fa;
 
-            animation: move 2s linear infinite alternate;
+            animation: move 2s linear 3 normal forwards;
+            animation-delay: 1s;
         }
 
         @keyframes move {
-            from {
+            0% {
                 transform: translateX(0);
+                background-color: #60a5fa;
+
             }
 
-            to {
-                transform: translateX(300px);
+            50% {
+                transform: translateX(100px) scale(1.2);
+                background-color: #22c55e;
+            }
+
+            100% {
+                transform: translateX(200px);
+                background-color: #f97316;
             }
         }
     </style>
