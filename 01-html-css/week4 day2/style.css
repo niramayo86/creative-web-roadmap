@@ -1,0 +1,191 @@
+body {
+    background-color: #f8f5ef;
+    color: #46392e;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 32px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+nav a {
+    color: #46392e;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.concept, .menu, .service, .access {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+.concept h2, .menu h2, .service h2, .access h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 32px;
+}
+
+.concept img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.concept h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.concept p {
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+.menucard {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menucard img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.menucard h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #46392e;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.menucard p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #78634f;
+    margin: 8px 0px 20px 0px;
+}
+
+.servicecard {
+    margin: 0px;
+    margin-bottom: 48px;
+}
+
+.servicecard img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.servicecard h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0px 12px 0px;
+}
+
+.servicecard p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.accesscard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.accessname {
+    font-size: 16px;
+    font-weight: 700;
+    color: #46392e;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.accesscontent {
+    font-size: 16px;
+    font-weight: 400;
+    color: #685548;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.access img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    background-color: #46392e;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
